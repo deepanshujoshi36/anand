@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.login-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    font-size: 16px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.social-login {
+    margin-top: 30px;
+}
+
+.social-btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.google {
+    background-color: #db4437;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main class="login-container">
+        <img src="https://i.ibb.co/MGbKKqL/20240909-005156.jpg" alt="Logo" class="logo">
+        <h2 class="login-title">Student Login</h2>
+        <form class="login-form">
+            <input type="text" placeholder="Name" class="login-input">
+            <input type="email" placeholder="Email" class="login-input">
+            <input type="password" placeholder="Password" class="login-input">
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <div class="social-login">
+            <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook Login</a>
+            <a href="#" class="social-btn google"><i class="fab fa-google"></i> Google Login</a>
+        </div>
+    </main>
+</body>
+</html>
